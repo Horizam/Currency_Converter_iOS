@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="CountryCell" customModule="Currency_Converter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="420" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="420" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSw-dA-rDi">
+                        <rect key="frame" x="0.0" y="0.0" width="420" height="85"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ZsH-t4-Zvh">
+                                <rect key="frame" x="12" y="21.666666666666671" width="89" height="42"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PKR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnX-um-A8n">
+                                        <rect key="frame" x="0.0" y="0.0" width="89" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pakistani rupees" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9v7-4w-a0Y">
+                                        <rect key="frame" x="0.0" y="28.333333333333332" width="89" height="13.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                        <color key="textColor" name="gray-dark"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.001" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Tm-4V-uQ4">
+                                <rect key="frame" x="377.66666666666669" y="35.666666666666664" width="30.333333333333314" height="13.666666666666664"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9Tm-4V-uQ4" secondAttribute="trailing" constant="12" id="0Vj-27-8Qj"/>
+                            <constraint firstItem="ZsH-t4-Zvh" firstAttribute="centerY" secondItem="LSw-dA-rDi" secondAttribute="centerY" id="64i-3U-7AS"/>
+                            <constraint firstItem="ZsH-t4-Zvh" firstAttribute="centerY" secondItem="9Tm-4V-uQ4" secondAttribute="centerY" id="E6e-y1-xsZ"/>
+                            <constraint firstItem="ZsH-t4-Zvh" firstAttribute="leading" secondItem="LSw-dA-rDi" secondAttribute="leading" constant="12" id="Rh8-Qh-dUS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="LSw-dA-rDi" secondAttribute="bottom" id="2GE-nK-pOa"/>
+                    <constraint firstItem="LSw-dA-rDi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7f3-if-vvd"/>
+                    <constraint firstAttribute="trailing" secondItem="LSw-dA-rDi" secondAttribute="trailing" id="ZnV-QL-WFZ"/>
+                    <constraint firstAttribute="trailing" secondItem="LSw-dA-rDi" secondAttribute="trailing" id="dnB-cI-YBH"/>
+                    <constraint firstItem="LSw-dA-rDi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qeM-Jx-S5O"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblAmount" destination="9Tm-4V-uQ4" id="rmQ-ue-IK8"/>
+                <outlet property="lblCountry" destination="9v7-4w-a0Y" id="YTy-gW-wrl"/>
+                <outlet property="lblCurrency" destination="dnX-um-A8n" id="1tP-xV-i8b"/>
+            </connections>
+            <point key="canvasLocation" x="170.99236641221373" y="34.154929577464792"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="gray-dark">
+            <color red="0.42699998617172241" green="0.42699998617172241" blue="0.42699998617172241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
