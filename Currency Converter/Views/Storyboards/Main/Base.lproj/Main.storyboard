@@ -309,10 +309,10 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YQD-SV-udV">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1008"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FGR-8A-gXU">
-                                                <rect key="frame" x="12" y="12" width="390" height="50"/>
+                                                <rect key="frame" x="12" y="-236" width="390" height="50"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tqb-hE-6SB">
                                                         <rect key="frame" x="12" y="8" width="89" height="34"/>
@@ -360,7 +360,7 @@
                                                 </constraints>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A9D-AK-kfd">
-                                                <rect key="frame" x="12" y="74" width="390" height="50"/>
+                                                <rect key="frame" x="12" y="-174" width="390" height="50"/>
                                                 <color key="backgroundColor" name="gray-light"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="NgZ-Jd-xhj"/>
@@ -369,7 +369,7 @@
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvA-yz-fjQ">
-                                                <rect key="frame" x="144.66666666666666" y="149" width="124.99999999999997" height="50"/>
+                                                <rect key="frame" x="144.66666666666666" y="-99" width="124.99999999999997" height="50"/>
                                                 <color key="backgroundColor" name="green-dark"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="cmT-oF-fb6"/>
@@ -384,7 +384,7 @@
                                                 </connections>
                                             </button>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGz-YJ-LhF">
-                                                <rect key="frame" x="82" y="224" width="250" height="250"/>
+                                                <rect key="frame" x="82" y="-24" width="250" height="250"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i9j-fG-Jg3">
                                                         <rect key="frame" x="16" y="16" width="218" height="218"/>
@@ -479,7 +479,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvb-Td-bpC">
-                                                <rect key="frame" x="12" y="499" width="390" height="50"/>
+                                                <rect key="frame" x="12" y="251" width="390" height="50"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Q0P-fS-bEJ">
                                                         <rect key="frame" x="12" y="8" width="99" height="34"/>
@@ -520,7 +520,7 @@
                                                 </connections>
                                             </searchBar>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="TGF-Z2-4hc">
-                                                <rect key="frame" x="12" y="628" width="390" height="350"/>
+                                                <rect key="frame" x="12" y="345" width="390" height="350"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="350" id="Hly-mw-5PK"/>
